@@ -4,7 +4,8 @@
     "version": "1.0",
     "description": "Get extra information about spotify songs",
     "background": {
-        "service_worker": "background.js"
+        "service_worker": "background.js",
+        "type": "module"
     },
     "action": {
         "default_popup": "popup/popup.html"
