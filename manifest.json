@@ -1,0 +1,8 @@
+{
+    "name": "Spotify Extra",
+    "version": "1.0",
+    "description": "Get extra information about spotify songs",
+    "background": {
+        "service_worker": "background.js"
+    }
+}
