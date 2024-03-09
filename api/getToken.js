@@ -1,4 +1,5 @@
-
+const clientId = '4f29f272f54f4d558a6e969123fe0fd0';
+const clientSecret = 'ede8b285c0824849a2ce57a9189ec095';
 
 export default async function getToken() {
 
@@ -15,4 +16,3 @@ export default async function getToken() {
     return data.access_token;
 }
 
-console.log(getToken());

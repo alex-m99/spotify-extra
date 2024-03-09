@@ -8,6 +8,12 @@
         "type": "module"
     },
     "action": {
-        "default_popup": "popup/popup.html"
-    } 
+        "default_popup": "popup/popup.html",
+        "type": "module"
+    },
+    "permissions": [
+        "tabs",
+        "activeTab",
+        "storage"
+    ]
 }
